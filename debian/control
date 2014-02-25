@@ -1,0 +1,45 @@
+Source: python-expiringdict
+Section: python
+Priority: optional
+Maintainer: Daniel Kahn Gillmor <dkg@fifthhorseman.net>
+Build-Depends:
+ debhelper (>= 9),
+ dh-python,
+ python-all (>= 2.6.6-3~),
+ python-setuptools,
+ python3-all,
+ python3-setuptools
+Homepage: https://github.com/mailgun/expiringdict
+Standards-Version: 3.9.5
+X-Python-Version: >= 2.6
+X-Python3-Version: >= 3.2
+Vcs-Git: git://anonscm.debian.org/collab-maint/python-expiringdict.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/python-expiringdict.git
+
+Package: python-expiringdict
+Architecture: all
+Depends: 
+ ${python:Depends},
+ ${misc:Depends}
+Description: Python caching library
+ expiringdict is a Python caching library, providing an ordered
+ dictionary with auto-expiring values for caching purposes. Expiration
+ happens on any access, object is locked during cleanup from expired
+ values.  ExpiringDict stores at most a maximum number of elements -
+ the oldest will be deleted.
+ .
+ This is the Python 2 version of this package.
+
+Package: python3-expiringdict
+Architecture: all
+Depends: 
+ ${python3:Depends},
+ ${misc:Depends}
+Description: Python3 caching libarry
+ expiringdict is a Python caching library, providing an ordered
+ dictionary with auto-expiring values for caching purposes. Expiration
+ happens on any access, object is locked during cleanup from expired
+ values.  ExpiringDict stores at most a maximum number of elements -
+ the oldest will be deleted.
+ .
+ This is the Python 3 version of this package.
