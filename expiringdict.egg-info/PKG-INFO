@@ -1,6 +1,6 @@
 Metadata-Version: 1.0
 Name: expiringdict
-Version: 1.1
+Version: 1.1.2
 Summary: Dictionary with auto-expiring values for caching purposes
 Home-page: https://github.com/mailgun/expiringdict
 Author: Anton Efimenko
