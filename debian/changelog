@@ -1,6 +1,13 @@
+python-expiringdict (1.1.2-1) unstable; urgency=medium
+
+  * new upstream version, with upstream licensing included 
+    (Closes: #740044)
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Tue, 11 Mar 2014 10:02:17 -0400
+
 python-expiringdict (1.1-1) unstable; urgency=low
 
-  * First debian upload (Closes: #740044)
+  * First attempt at a debian upload
 
  -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Mon, 24 Feb 2014 22:56:20 -0500
 
